@@ -1,3 +1,26 @@
-<h2 id="title">Welcome to Ember</h2>
+<h2 id="title">Wow, What A Life!</h2>
+
+<p>This simulation is based on the following assumptions:</p>
+
+<p>
+  50 wks/yr * 40 hrs/wk = 2000 hrs/yr
+</p>
+
+<div>
+  <h3>Goals</h3>
+  {{goal-slider sliderName='Education'}}
+  {{goal-slider sliderName='Happiness'}}
+  {{goal-slider sliderName='Money'}}
+  {{goal-slider sliderName='Career'}}
+</div>
+
+<div>
+  <h3>Activities</h3>
+  {{activity-column activityName='Work'}}
+  {{activity-column activityName='Hobby 1'}}
+  {{activity-column activityName='Freelancing'}}
+  {{activity-column classNames='junk-drawer' activityName='Free Time'}}
+  <div>[ add-button ]</div>
+</div>
 
 {{outlet}}

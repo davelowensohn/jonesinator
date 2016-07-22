@@ -1,0 +1,42 @@
+* {
+  text-align: center;
+  background-color: #ffe;
+  font-family: sans-serif;
+  padding: 5px;
+  margin: 5px;
+}
+
+div {
+  border: 1px solid #999;
+}
+
+/* GOALS OVERVIEW */
+
+.goal-slider {
+  display: inline-block;
+}
+
+.goal-slider:hover {
+  background-color: #090;
+  color: #ffe;
+}
+
+/* ACTIVITY COLUMN */
+
+.activity-column {
+  display: inline-block;
+}
+
+.activity-column:hover {
+  background-color: #900;
+  color: #ffe;
+}
+
+.junk-drawer {
+  border: 1px solid #000;
+}
+
+.junk-drawer:hover {
+  background-color: #009;
+  color: #ffe;
+}
