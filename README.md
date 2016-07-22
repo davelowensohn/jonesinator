@@ -1,7 +1,18 @@
 # Jonesinator
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+A visual decision-making tool, based on the eerily prescient goal setter from
+Sierra Online's 1990 life simulator, "Jones In The Fast Lane". Goals are set in
+four different categories:
+
+* Education
+* Career
+* Money
+* Happiness
+
+You can then add jobs, hobbies, etc. to your life and adjust the levels until
+everything's where you want it. Scenarios are shareable via URL + query params.
+
+This is sort of a joke but also completely serious.
 
 ## Prerequisites
 
@@ -50,4 +61,3 @@ Specify what it takes to deploy your app.
 * Development Browser Extensions
   * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
   * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
-
